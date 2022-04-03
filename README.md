@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/hpoydar/chronic_duration.png?branch=master)](https://travis-ci.org/hpoydar/chronic_duration)
-
-# Chronic Duration
+# Chronic Duration - in french
 
 A simple Ruby natural language parser for elapsed time. (For example, 4 hours and 30 minutes, 6 minutes 4 seconds, 3 days, etc.) Returns all results in seconds. Will return an integer unless you get tricky and need a float. (4 minutes and 13.47 seconds, for example.)
 
@@ -69,13 +67,4 @@ Also looking for additional maintainers.
 
 ## Contributors
 
-errm,pdf, brianjlandau, jduff, olauzon, roboman, ianlevesque, bolandrm
-
-## TODO
-
-* Benchmark, optimize
-* Context specific matching (E.g., for '4m30s', assume 'm' is minutes not months)
-* Smartly parse vacation-like durations (E.g., '4 days and 3 nights')
-* :chrono output option should probably change to something like 4 days 4:00:12 instead of 4:04:00:12
-* Other locale support
-
+errm, pdf, brianjlandau, jduff, olauzon, roboman, ianlevesque, bolandrm, berpj
