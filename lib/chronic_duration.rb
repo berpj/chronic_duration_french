@@ -247,8 +247,8 @@ private
 
   def mappings
     {
-      'seconds' => 'seconds',
-      'second'  => 'seconds',
+      'secondes' => 'seconds',
+      'seconde'  => 'seconds',
       'secs'    => 'seconds',
       'sec'     => 'seconds',
       's'       => 'seconds',
@@ -257,33 +257,23 @@ private
       'mins'    => 'minutes',
       'min'     => 'minutes',
       'm'       => 'minutes',
-      'hours'   => 'hours',
-      'hour'    => 'hours',
-      'hrs'     => 'hours',
-      'hr'      => 'hours',
+      'heures'   => 'hours',
+      'heure'    => 'hours',
       'h'       => 'hours',
-      'days'    => 'days',
-      'day'     => 'days',
-      'dy'      => 'days',
-      'd'       => 'days',
-      'weeks'   => 'weeks',
-      'week'    => 'weeks',
-      'wks'     => 'weeks',
-      'wk'      => 'weeks',
-      'w'       => 'weeks',
-      'months'  => 'months',
-      'mo'      => 'months',
-      'mos'     => 'months',
-      'month'   => 'months',
-      'years'   => 'years',
-      'year'    => 'years',
-      'yrs'     => 'years',
-      'yr'      => 'years',
-      'y'       => 'years'
+      'jours'    => 'days',
+      'jour'     => 'days',
+      'j'       => 'days',
+      'semaines'   => 'weeks',
+      'semaine'    => 'weeks',
+      'mois'  => 'months',
+      'années'   => 'years',
+      'année'    => 'years',
+      'ans'     => 'years',
+      'an'      => 'years'
     }
   end
 
   def join_words
-    ['and', 'with', 'plus']
+    ['et', 'avec', 'plus', 'puis']
   end
 end
